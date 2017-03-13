@@ -13,17 +13,19 @@ public class TestGit {
   @Test
   public void f() throws InterruptedException {
 	  
-//	    FirefoxProfile profile = new FirefoxProfile();
-//		profile.setAcceptUntrustedCertificates(true);
-//		profile.setAssumeUntrustedCertificateIssuer(false);
-//		System.setProperty("webdriver.gecko.driver", ".//webdriver//geckodriver.exe");
-//		WebDriver driver = new FirefoxDriver(profile);
+	    FirefoxProfile profile = new FirefoxProfile();
+		profile.setAcceptUntrustedCertificates(true);
+		profile.setAssumeUntrustedCertificateIssuer(false);
+		System.setProperty("webdriver.gecko.driver", ".//webdriver//geckodriver.exe");
+		WebDriver driver = new FirefoxDriver(profile);
+		System.out.println("FireFox Initialized :::::");
 		
-		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-		System.setProperty("webdriver.chrome.driver", "F:\\webdriver\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver(capabilities);
-		System.out.println("Chrome Initialized :::::");
+//		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+//		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+//		System.setProperty("webdriver.chrome.driver", "F:\\webdriver\\chromedriver.exe");
+//		WebDriver driver = new ChromeDriver(capabilities);
+//		System.out.println("Chrome Initialized :::::");
+		
 		
 //		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 //		capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
