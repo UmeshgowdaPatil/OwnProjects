@@ -31,7 +31,6 @@ public class TestGit {
 		System.setProperty("webdriver.ie.driver", "F:\\webdriver\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver(capabilities);
 		System.out.println("IE Initialized ::::::::::::::::::");
-		System.out.println("IE Initialized ::::::::::::::::::");
 		
 		
 		driver.get("https://www.google.co.in/");
